@@ -79,6 +79,37 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.live-nav {
+    background: linear-gradient(131deg, #d48b12, #d43000);
+    background-size: 400% 400%;
+
+    -webkit-animation: live-back 11s ease infinite;
+    -moz-animation: live-back 11s ease infinite;
+    -o-animation: live-back 11s ease infinite;
+    animation: live-back 11s ease infinite;
+}
+
+@-webkit-keyframes live-back {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+@-moz-keyframes live-back {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+@-o-keyframes live-back {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+@keyframes live-back {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
